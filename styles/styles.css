@@ -1,0 +1,89 @@
+/*
+body {
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    font-family: 'Antonio', sans-serif;
+
+}
+
+
+.main-menu{
+    display:flex;
+
+}
+
+
+.general-table{
+    display: inline;
+    border-color:violet;
+
+}
+
+li{
+    list-style-type:none;
+}
+legend{
+    color:violet;
+    font-size: 20px;
+}
+.My-list{
+    color:rgb(149, 231, 241);
+    font-size:25px;
+}
+article , h1{
+
+    margin:0px 0px 0px 280px;
+    font-size:60px ;
+    color:rgb(149, 231, 241);
+
+} 
+*/
+
+body {
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    font-family: 'Antonio', sans-serif;
+
+}
+.content{
+    display: inline-flex;
+    flex-direction: column;
+    /*justify-content: center; dose not work*/
+    margin-left: 650px;
+}
+h1{
+    font-size:35px ;
+    color:rgb(149, 231, 241);
+
+}
+.main-menu{
+    border:thin solid ;
+    padding:0 20px 0 20px ;
+
+}
+.heading{
+    color:violet;
+    font-size: 20px;
+}
+.list-part , li{
+    color:violet;
+}
+.list-part , span{
+    color:white;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+     /*justify-content: center; dose not work*/
+    padding-left:45px;
+}
+.checkbox-heading {
+    font-size:35px ;
+    color:rgb(149, 231, 241);
+
+}
+.checkbox-yesno{
+    padding-left: 13px;
+}
